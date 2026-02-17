@@ -11,7 +11,8 @@ IMPORTANT:
 This shared file is intentional. You will probably create merge conflicts.
 That's part of the exercise.
 """
-
+def format_result(result):
+    return f"Result: {result}"
 
 def add(a, b):
     return a + b
@@ -27,3 +28,5 @@ def mul(a, b):
 
 def div(a, b):
     return a / b
+
+
