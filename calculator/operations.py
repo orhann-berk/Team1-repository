@@ -12,7 +12,7 @@ This shared file is intentional. You will probably create merge conflicts.
 That's part of the exercise.
 """
 def format_result(result):
-    return f"Computation gives: {result}"
+    return f"Your result is: {result}"
 
 def add(a, b):
     return a + b
